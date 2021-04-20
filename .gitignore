@@ -5,6 +5,8 @@ __pycache__
 .env
 .venv
 *.egg-info
+cdk_mwwa_blogpost/cdk_mwwa_blogpost_stack.py
+cdk_mwwa_blogpost/argparseTest.py
 
 # CDK asset staging directory
 .cdk.staging
