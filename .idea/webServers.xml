@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="ea623565-cdce-4627-b930-665e5d5bf04c" name="EMR-Test" url="">
+        <fileTransfer rootFolder="/home/hadoop" accessType="SFTP" host="ec2-3-235-230-67.compute-1.amazonaws.com" port="22" sshConfigId="715eeab2-b91c-4f72-9497-d8a1f37e35d8" sshConfig="EMR-Test" keyPair="true" />
+      </webServer>
+    </option>
+  </component>
+</project>
