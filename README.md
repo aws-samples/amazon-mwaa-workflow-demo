@@ -27,7 +27,7 @@ The DAG contained at this project deploys uses the Movie Lens data set to deploy
 
 - An AWS Account 
 - AWS CDK for Python
-- AWS CLI configured with access creadentials
+- AWS CLI configured with access creadentials for the us-east-1 region
 - Python 3.6+
 - IAM Privileges to deploy and delete the components of the architecture:
     
@@ -113,7 +113,7 @@ cd ~/environment/amazon-mwaa-workflow-demo/post_scripts
 python3 CleanUpScript.py
 ```
 
-3 - Delete the AWS CDK Stack. In the AWS Cloud9 Terminal run the following commands. Monitor the terminal and enter "Y" when prompted about deleting the *cdk-mwaa-s3*, *cdk-mwaa-vpc*, and *cdk-mwaa-iam* stacks
+4 - Delete the AWS CDK Stack. In the AWS Cloud9 Terminal run the following commands. Monitor the terminal and enter "Y" when prompted about deleting the *cdk-mwaa-s3*, *cdk-mwaa-vpc*, and *cdk-mwaa-iam* stacks
 
 ```
 cd  ~/environment/amazon-mwaa-workflow-demo
