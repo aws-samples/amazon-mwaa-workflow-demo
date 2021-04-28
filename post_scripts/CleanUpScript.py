@@ -63,7 +63,7 @@ def clean_mwaa_buckets(bucket_name):
     delete_response = bucket.objects.delete()
 
     if delete_response:
-        print(delete_response["ResponseMetadata"]["Deleted"])
+        print(f"Delete Complete Bucket = {bucket_name}")
 
 
 def main():
@@ -94,7 +94,7 @@ def main():
 
                         bucket_name = cft_stack_output["OutputValue"]
 
-                        print(bucket_name)
+                        print(f"Deleting SG = {bucket_name}")
 
                         if not DRY_RUN:
                             clean_mwaa_buckets(bucket_name)
