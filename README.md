@@ -5,7 +5,7 @@ The project contains one Apache Airflow DAG with the required instructions and d
 
 This project serves as a quick start environment to start using Amazon MWAA with integration to AWS Big Data Services, such as: Amazon EMR, Amazon Athena, AWS Glue, and S3.
 
-This code sample is discussed in detail in this AWS [Blog Post](https://aws-blogs-prod.amazon.com/aws-spanish/construyendo-pipelines-de-datos-con-amazon-managed-workflows-for-apache-airflow-amazon-emr-aws-glue-y-amazon-athena/).
+This code sample is discussed in detail in this AWS [Blog Post](https://aws.amazon.com/es/blogs/aws-spanish/construyendo-pipelines-de-datos-con-amazon-managed-workflows-for-apache-airflow-amazon-emr-aws-glue-y-amazon-athena/).
 
 ### Architecture
 
